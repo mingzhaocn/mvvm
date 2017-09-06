@@ -48,6 +48,7 @@ class Compile {
     Array.from(nodeAttrs).forEach(attr => {
       const attrName = attr.name;
       if (this.isDirective(attrName)) {
+        debugger
         const exp = attr.value;
         const dir = attrName.substring(2);
         if (this.isEventDirective(dir)) {//事件指令
