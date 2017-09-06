@@ -4,9 +4,8 @@
 > 1、了解vue的双向数据绑定原理以及核心代码模块<br>
 > 2、缓解好奇心的同时了解如何实现双向绑定<br>
 > 为了便于说明原理与实现，本文相关代码主要摘自[vue源码](https://github.com/vuejs/vue), 并进行了简化改造，相对较简陋，并未考虑到数组的处理、数据的循环依赖等，也难免存在一些问题，欢迎大家指正。不过这些并不会影响大家的阅读和理解，相信看完本文后对大家在阅读vue源码的时候会更有帮助<br>
-> 本文所有相关代码均在github上面可找到 [https://github.com/DMQ/mvvm](https://github.com/DMQ/mvvm)
 
->Will work in your browser in these cases:
+>区别于 [https://github.com/DMQ/mvvm](https://github.com/DMQ/mvvm) 本工程的代码使用 ES6+ 编写，而且浏览器必须支持 es6 module ，所以只在以下情况下代码有效：
 >1. Safari 10.1.
 >1. Chrome Canary 60 – behind the Experimental Web Platform flag in chrome:flags.
 >1. Firefox 54 – behind the dom.moduleScripts.enabled setting in about:config.
